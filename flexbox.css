@@ -1,0 +1,55 @@
+/*==========================
+
+Flex Layout
+
+================================*/
+
+
+.main-header,
+ .container-1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.title,
+.navigation a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	display: block;
+}
+
+.container-2,
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+li {
+    display: inline; 
+}
+
+.container-3,
+.row,
+.col  {
+	display: flex;
+    flex-direction: column; 
+    flex-basis: auto;
+}
+
+
+.col {
+    border: 1px solid rebeccapurple; 
+    flex-grow: 1;
+    width: 100%; 
+    padding: 100px;
+
+}

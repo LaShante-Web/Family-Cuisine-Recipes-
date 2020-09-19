@@ -1,0 +1,97 @@
+* Body {
+    box-sizing: border-box;
+}
+
+body {
+	font-size: 1.35em;
+	font-family: 'Varela Round', sans-serif;
+	background: rebeccapurple;
+	padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+
+
+
+/*==================================
+
+      Media queries
+
+======================================*/
+
+@media (min-width: 576px) {
+
+
+
+
+.body {
+    color: rebeccapurple;
+    background-color: peachpuff;
+}
+
+
+.main-header,
+.container {
+    color: rebeccapurple;
+    background-color: peachpuff;
+    font-size: 20px;
+}
+
+.navigation
+.container-2 {
+    font-size: 24px;
+    list-style-type: none; /*get rid of bullets*/
+    
+    
+}
+
+.navigation li {
+	background: mediumspringgreen;
+    margin: 10px; 
+    line-height: 50%; 
+      
+}
+.navigation a:hover {
+    color: goldenrod; 
+    font-size: 25px; 
+}
+
+.nav a {
+	font-size: 16px;
+    text-transform: uppercase;
+    margin: 1px; 
+    display: block;
+    
+}
+
+.dish,
+.sides,
+.desserts,
+.recipes {
+    color: rebeccapurple;
+}
+
+
+}
+.row {
+    
+    color: rebeccapurple;
+    background-color: peachpuff;
+}
+
+.row,
+.col,
+.h2 {
+    font-size: 24px;
+   
+    
+}
+
+.info {
+    text-align: left;
+}
+
+
+
+
