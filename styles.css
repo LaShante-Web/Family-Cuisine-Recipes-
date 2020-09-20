@@ -3,7 +3,7 @@
 }
 
 body {
-	font-size: 1.35em;
+	font-size: 3em;
 	font-family: 'Varela Round', sans-serif;
 	background: rebeccapurple;
 	padding-left: 5%;
@@ -20,27 +20,120 @@ body {
 
 ======================================*/
 
-@media (min-width: 576px) {
+@media only screen and (min-width: 480px) {
 
 
 
 
-.body {
-    color: rebeccapurple;
-    background-color: peachpuff;
+
+    body {
+    font-size: 1em;
+	font-family: 'Varela Round', sans-serif;
+	background: rebeccapurple;
+	padding-left: 5%;
+    padding-right: 5%;
+    }
+
 }
-
 
 .main-header,
-.container {
+.container-1 {
     color: rebeccapurple;
     background-color: peachpuff;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
+    
 }
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    padding: 75px; 
+    margin-top: 30px;
+    color: rebeccapurple;
+    background-color: peachpuff;
+    font-size: 15px;
+    text-align: center;
+    
+
+}
+
+
+
 
 .navigation
 .container-2 {
-    font-size: 24px;
+    font-size: 15px;
+    list-style-type: none; /*get rid of bullets*/
+    
+    
+}
+
+.navigation li {
+	background: mediumspringgreen;
+    margin: 30px; 
+    /* line-height: 50%;  */
+      
+}
+.navigation a:hover {
+
+    font-size: 30px; 
+}
+
+.navigation a {
+	font-size: 25px;
+    text-transform: uppercase;
+    margin: 1px; 
+    display: block;
+    
+}
+
+
+
+
+@media (min-width: 576px) {
+
+
+body {
+    font-size: 1em;
+	font-family: 'Varela Round', sans-serif;
+	background: rebeccapurple;
+	padding-left: 5%;
+    padding-right: 5%;
+    }
+
+}
+
+.main-header,
+.container-1 {
+    color: rebeccapurple;
+    background-color: peachpuff;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    padding: 75px; 
+    margin-top: 30px;
+    color: rebeccapurple;
+    background-color: peachpuff;
+    font-size: 15px;
+    text-align: center;
+    
+
+}
+
+
+
+
+.navigation
+.container-2 {
+    font-size: 15px;
     list-style-type: none; /*get rid of bullets*/
     
     
@@ -53,44 +146,84 @@ body {
       
 }
 .navigation a:hover {
-    color: goldenrod; 
-    font-size: 25px; 
+    font-size: 30px; 
 }
 
-.nav a {
-	font-size: 16px;
+.navigation a {
+	font-size: 25px;
     text-transform: uppercase;
     margin: 1px; 
     display: block;
     
 }
 
-.dish,
-.sides,
-.desserts,
-.recipes {
-    color: rebeccapurple;
-}
 
 
+@media (min-width: 992px) {
+
+body {
+    font-size: 1em;
+	font-family: 'Varela Round', sans-serif;
+	background: rebeccapurple;
+	padding-left: 5%;
+    padding-right: 5%;
+    }
+
 }
-.row {
-    
+
+.main-header,
+.container-1 {
     color: rebeccapurple;
     background-color: peachpuff;
-}
-
-.row,
-.col,
-.h2 {
-    font-size: 24px;
-   
+    font-size: 30px;
+    text-align: center;
     
 }
 
-.info {
-    text-align: left;
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    padding: 75px; 
+    margin-top: 30px;
+    color: rebeccapurple;
+    background-color: peachpuff;
+    font-size: 25px;
+    text-align: center;
+    
+
 }
+
+
+
+
+.navigation
+.container-2 {
+    font-size: 15px;
+    list-style-type: none; /*get rid of bullets*/
+    
+    
+}
+
+.navigation li {
+	background: mediumspringgreen;
+    /* margin: 10px;  */
+    line-height: 50%; 
+      
+}
+.navigation a:hover {
+    font-size: 30px; 
+}
+
+.navigation a {
+	font-size: 25px;
+    text-transform: uppercase;
+    margin: 1px; 
+    display: block;
+    
+}
+    
+
 
 
 

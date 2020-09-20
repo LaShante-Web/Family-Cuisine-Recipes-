@@ -4,7 +4,7 @@ Flex Layout
 
 ================================*/
 
-
+@media only screen and (min-width: 480px) {
 .main-header,
  .container-1 {
 	display: flex;
@@ -24,22 +24,65 @@ Flex Layout
 .navigation {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-ul {
+/* ul {
   margin: 0;
   padding: 0;
   list-style: none;
 
+} */
+
+/* 
+.container-3,
+.col  {
+	display: flex;
+    flex-direction: column; 
+    flex-basis: auto;
+}*/
+
+
+.secondary col {
+    border: 1px solid rebeccapurple; 
+    flex-grow: 1;
+    width: 100%; 
+    padding: 100px;
+
 }
 
-li {
-    display: inline; 
+@media (min-width: 576px) {
+
+
+
+.main-header,
+ .container-1 {
+	display: inline-flexbox;
+	
+    
+    
 }
+
+.title,
+.navigation  {
+	padding: 10px 15px;
+	text-transform: uppercase;
+    display: inline-block;
+    justify-content: left;
+}
+
+.container-2,
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+    
+     
 
 .container-3,
-.row,
 .col  {
+    
 	display: flex;
     flex-direction: column; 
     flex-basis: auto;
@@ -53,3 +96,10 @@ li {
     padding: 100px;
 
 }
+
+.container-4 {
+    flex-grow: 1; 
+}
+
+
+
