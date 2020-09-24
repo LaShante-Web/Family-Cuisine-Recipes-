@@ -2,14 +2,14 @@
     box-sizing: border-box;
 }
 
-body {
+/* .body {
 	font-size: 3em;
 	font-family: 'Varela Round', sans-serif;
 	background: rebeccapurple;
 	padding-left: 5%;
     padding-right: 5%;
     
-}
+} */
 
 
 
@@ -28,14 +28,18 @@ body {
 
     body {
     font-size: 1em;
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	background: rebeccapurple;
 	padding-left: 5%;
     padding-right: 5%;
+    border: 10mm groove mediumspringgreen;
     }
 
 }
 
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .main-header,
 .container-1 {
     color: rebeccapurple;
@@ -49,8 +53,7 @@ body {
 .container-2,
 .container-3,
 .container-4 {
-    padding: 75px; 
-    margin-top: 30px;
+    
     color: rebeccapurple;
     background-color: peachpuff;
     font-size: 15px;
@@ -60,11 +63,9 @@ body {
 }
 
 
-
-
-.navigation
+.navigation,
 .container-2 {
-    font-size: 15px;
+    font-size: 5px;
     list-style-type: none; /*get rid of bullets*/
     
     
@@ -72,8 +73,7 @@ body {
 
 .navigation li {
 	background: mediumspringgreen;
-    margin: 30px; 
-    /* line-height: 50%;  */
+   
       
 }
 .navigation a:hover {
@@ -82,7 +82,7 @@ body {
 }
 
 .navigation a {
-	font-size: 25px;
+	font-size: 5px;
     text-transform: uppercase;
     margin: 1px; 
     display: block;
@@ -95,7 +95,7 @@ body {
 @media (min-width: 576px) {
 
 
-body {
+.body {
     font-size: 1em;
 	font-family: 'Varela Round', sans-serif;
 	background: rebeccapurple;
@@ -141,8 +141,7 @@ body {
 
 .navigation li {
 	background: mediumspringgreen;
-    margin: 10px; 
-    line-height: 50%; 
+    /* margin: 10px;  */
       
 }
 .navigation a:hover {
@@ -161,7 +160,7 @@ body {
 
 @media (min-width: 992px) {
 
-body {
+    .body {
     font-size: 1em;
 	font-family: 'Varela Round', sans-serif;
 	background: rebeccapurple;
@@ -169,7 +168,7 @@ body {
     padding-right: 5%;
     }
 
-}
+} 
 
 .main-header,
 .container-1 {
@@ -207,8 +206,8 @@ body {
 
 .navigation li {
 	background: mediumspringgreen;
-    /* margin: 10px;  */
-    line-height: 50%; 
+    margin: 10px; 
+    /* line-height: 50%;  */
       
 }
 .navigation a:hover {
@@ -223,8 +222,5 @@ body {
     
 }
     
-
-
-
 
 

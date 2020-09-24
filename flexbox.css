@@ -5,12 +5,29 @@ Flex Layout
 ================================*/
 
 @media only screen and (min-width: 480px) {
+
+
+.container-1,
+.col  {
+	display: flex;
+    flex-direction: column; 
+    flex-basis: auto;
+}
+
+
 .main-header,
- .container-1 {
+.container-1 {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .title,
@@ -23,24 +40,17 @@ Flex Layout
 .container-2,
 .navigation {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-/* ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-} */
-
-/* 
+ 
 .container-3,
 .col  {
 	display: flex;
     flex-direction: column; 
     flex-basis: auto;
-}*/
+}
 
 
 .secondary col {
@@ -63,6 +73,16 @@ Flex Layout
     
 }
 
+.left {
+    width: 20%; 
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .title,
 .navigation  {
 	padding: 10px 15px;
@@ -75,9 +95,13 @@ Flex Layout
 .navigation {
     display: flex;
     justify-content: flex-start;
+    flex-direction: row;
+    margin-left: auto; 
+    margin-right: auto; 
     list-style: none;
 }
-    
+
+
      
 
 .container-3,
@@ -98,8 +122,6 @@ Flex Layout
 }
 
 .container-4 {
-    flex-grow: 1; 
+    flex-grow: 1;
+
 }
-
-
-
