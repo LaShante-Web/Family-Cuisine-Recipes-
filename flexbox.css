@@ -4,57 +4,47 @@ Flex Layout
 
 ================================*/
 
-@media only screen and (min-width: 480px) {
 
+@media only screen and (min-width: 375px) {
 
-.container-1,
-.col  {
-	display: flex;
-    flex-direction: column; 
-    flex-basis: auto;
+.body {
+    overflow: scroll;
 }
 
-
-.main-header,
-.container-1 {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.title,
-.navigation a {
-	padding: 10px 15px;
-	text-transform: uppercase;
-	display: block;
-}
-
-.container-2,
-.navigation {
+.wrapper {
+    height: 25vh;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    margin-block: 10px;
+
 }
 
- 
-.container-3,
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ .nav-link a {
+	/* padding: 10px 15px; */
+    text-transform: uppercase;
+    flex-direction: column;
+    align-items: baseline;
+    
+    
+} 
+
+.flex-container,
 .col  {
 	display: flex;
-    flex-direction: column; 
-    flex-basis: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+
 }
 
 
-.secondary col {
-    border: 1px solid rebeccapurple; 
+.col {
+    
     flex-grow: 1;
     width: 100%; 
     padding: 100px;
@@ -63,48 +53,44 @@ Flex Layout
 
 @media (min-width: 576px) {
 
+.body {
+    overflow: scroll;
+}
 
 
-.main-header,
- .container-1 {
-	display: inline-flexbox;
-	
-    
+ .container-fluid {
+	display: inline-block;
+ 
     
 }
 
-.left {
-    width: 20%; 
+.wrapper {
+    height: 25vh;
+    display: flex;
+
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
 }
 
-.title,
-.navigation  {
-	padding: 10px 15px;
+.nav-link a {
+	/* padding: 10px 15px; */
 	text-transform: uppercase;
     display: inline-block;
-    justify-content: left;
 }
 
-.container-2,
-.navigation {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    margin-left: auto; 
-    margin-right: auto; 
-    list-style: none;
-}
+/* .container-2,
+.nav-link a {
+    /* display: flex;
+    flex-direction: row; */
+    /* margin-left: auto; 
+    margin-right: auto;  */
 
 
-     
 
-.container-3,
 .col  {
     
 	display: flex;
@@ -124,4 +110,57 @@ Flex Layout
 .container-4 {
     flex-grow: 1;
 
+}
+
+@media (min-width: 992px) {
+
+.body {
+    overflow: scroll;
+}
+
+.wrapper {
+    height: 25vh;
+    display: flex;
+
+}
+.flex-container {
+    /* display: inline-block; */
+  display: flex;
+
+	   
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+.nav-link a {
+	/* padding: 10px 15px; */
+	text-transform: uppercase;
+    display: block;
+    /* align-items: stretch; */
+    /* justify-content: space-around; */
+
+}
+
+  
+
+  
+
+h2,
+p {
+    text-align: center;
+}
+
+
+
+.col {
+    border: 1px solid rebeccapurple; 
+    flex-grow: 1;
+    width: 100%; 
+    padding: 100px;
 }

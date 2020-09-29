@@ -1,6 +1,8 @@
 * Body {
     box-sizing: border-box;
+     
 }
+ 
 
 /* .body {
 	font-size: 3em;
@@ -13,83 +15,98 @@
 
 
 
-
 /*==================================
 
       Media queries
 
 ======================================*/
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 375px) {
 
 
 
 
 
     body {
-    font-size: 1em;
+    /* font-size: 1em; */
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	background: rebeccapurple;
-	padding-left: 5%;
-    padding-right: 5%;
+	background: rebeccapurple; 
     border: 10mm groove mediumspringgreen;
+    /* height: 100%;  */
     }
 
 }
 
-.title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.main-header,
-.container-1 {
-    color: rebeccapurple;
+/* .container-fluid {
+    color: rebeccapurle;
     background-color: peachpuff;
     font-size: 15px;
     text-align: center;
+
     
+} */
+
+.wrapper {
+
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Geneva, Verdana, sans-serif;
+
 }
 
-.container-1,
-.container-2,
+
+
+/* .container-2, */
 .container-3,
 .container-4 {
     
     color: rebeccapurple;
-    background-color: peachpuff;
+    /* background-color: peachpuff; */
     font-size: 15px;
     text-align: center;
+}
     
 
-}
 
-
-.navigation,
-.container-2 {
-    font-size: 5px;
+ .container-2 {
     list-style-type: none; /*get rid of bullets*/
-    
+ 
     
 }
 
-.navigation li {
-	background: mediumspringgreen;
-   
-      
-}
-.navigation a:hover {
+.container-2,
+.bg-img {
+    background-image: url("pexels-pixabay-277253.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50px;
+} 
+
+
+
+.nav-link a:hover {
 
     font-size: 30px; 
 }
 
-.navigation a {
-	font-size: 5px;
+.nav-link a {
+	font-size: 0.8em;
     text-transform: uppercase;
-    margin: 1px; 
-    display: block;
-    
+    /* margin: auto;  */
+    display: inline-block;
+    background: mediumspringgreen;
+
 }
+.col-1,
+.col-2,
+.col-3,
+.column {
+ border: 2px solid mediumspringgreen; 
 
-
+}
+    
 
 
 @media (min-width: 576px) {
@@ -98,64 +115,67 @@
 .body {
     font-size: 1em;
 	font-family: 'Varela Round', sans-serif;
-	background: rebeccapurple;
-	padding-left: 5%;
-    padding-right: 5%;
+    /* background: rebeccapurple;  */
+    border: 10mm groove mediumspringgreen;
+	/* padding-left: 5%;
+    padding-right: 5%; */
+    /* height: 100%;  */
     }
 
-}
+}  
 
-.main-header,
-.container-1 {
-    color: rebeccapurple;
-    background-color: peachpuff;
-    font-size: 15px;
+.wrapper {
+
+    font-size: 3em;
     text-align: center;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container-1,
+
+/* .container-fluid,
 .container-2,
 .container-3,
-.container-4 {
+.container-4  */
+.flex-container {
     padding: 75px; 
-    margin-top: 30px;
+    margin-top: 30px; 
     color: rebeccapurple;
-    background-color: peachpuff;
+    /* background-color: peachpuff;  */
     font-size: 15px;
-    text-align: center;
+    text-align: center; 
     
 
-}
+ } 
 
 
+.container-2,
+.bg-img {
+    background-image: url("pexels-pixabay-277253.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50px;
+} 
 
 
-.navigation
-.container-2 {
-    font-size: 15px;
-    list-style-type: none; /*get rid of bullets*/
-    
-    
-}
-
-.navigation li {
-	background: mediumspringgreen;
-    /* margin: 10px;  */
-      
-}
-.navigation a:hover {
+.nav-link a:hover {
     font-size: 30px; 
 }
 
-.navigation a {
-	font-size: 25px;
+.nav-link a {
+	font-size: 1em;
     text-transform: uppercase;
-    margin: 1px; 
-    display: block;
-    
+    display: inline-block;
+    background: mediumspringgreen;
+    margin: 10px; 
 }
 
+.col-1,
+.col-2,
+.col-3,
+.column {
+ border: 2px solid peachpuff;
+}
 
 
 @media (min-width: 992px) {
@@ -163,30 +183,40 @@
     .body {
     font-size: 1em;
 	font-family: 'Varela Round', sans-serif;
-	background: rebeccapurple;
-	padding-left: 5%;
-    padding-right: 5%;
-    }
+    /* background: rebeccapurple;  */
+    border: 10mm groove mediumspringgreen;
+	/* padding-left: 5%;
+    padding-right: 5%;  */
+    /* height: 100%;
+    } */
 
 } 
 
-.main-header,
-.container-1 {
-    color: rebeccapurple;
-    background-color: peachpuff;
-    font-size: 30px;
+.wrapper {
+
+    font-size: 3em;
     text-align: center;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container-1,
+
+.container-2, 
+.bg-img {
+    background-image: url("pexels-pixabay-277253.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 25px; */
+} 
+
+
+
 .container-2,
-.container-3,
-.container-4 {
+.flex-container { 
     padding: 75px; 
     margin-top: 30px;
-    color: rebeccapurple;
-    background-color: peachpuff;
+    color: peachpuff;
+    /* background-color: peachpuff; */
     font-size: 25px;
     text-align: center;
     
@@ -194,33 +224,27 @@
 }
 
 
-
-
-.navigation
-.container-2 {
-    font-size: 15px;
-    list-style-type: none; /*get rid of bullets*/
-    
-    
-}
-
-.navigation li {
-	background: mediumspringgreen;
-    margin: 10px; 
-    /* line-height: 50%;  */
-      
-}
-.navigation a:hover {
+.nav-link a:hover {
     font-size: 30px; 
 }
 
-.navigation a {
-	font-size: 25px;
+.nav-link a {
+
     text-transform: uppercase;
-    margin: 1px; 
-    display: block;
-    
+    display: inline-block;
+    background: mediumspringgreen;
+    /* margin: 10px;   */
 }
-    
 
+/* .column {
+    border 
+} */
 
+.col-1,
+.col-2,
+.col-3,
+.column {
+ border: 2px solid mediumspringgreen;
+}
+
+}
