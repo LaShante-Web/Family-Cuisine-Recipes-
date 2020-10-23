@@ -3,13 +3,7 @@
      
 }
  
-script {
-  display: none;
-}
-<<<<<<< HEAD
 
-=======
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
 
 /*==================================
 
@@ -37,68 +31,49 @@ script {
 
 .container-2,
 .bg-img {
-    background-image: url("pexels-pixabay-277253.jpg");
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 50px;
+    min-height: 70px;
 } 
 
 
 
-.nav-link a:hover {
+.a:hover {
 
     font-size: 30px; 
 }
 
-.nav-link a {
+ 
+nav a {
 	font-size: 0.8em;
     text-transform: uppercase;
     display: inline-block;
     background: mediumspringgreen;
-
-}
-<<<<<<< HEAD
-
-.flex-container {
-    padding: 75px; 
-    margin-top: 30px; 
-    background-color: rebeccapurple;
-    font-size: 15px;
-    text-align: center; 
-    color: mediumvioletred;
-}
-.column {
-     border: 2px solid orange;
-}
-
-.info {
-    text-align: center;
-}
-
-.flex-row {
-border: 5px ridge peachpuff;
-color: mediumspringgreen;
-=======
-
-.flex-container {
-    padding: 75px; 
-    margin-top: 30px; 
-    background-color: rebeccapurple;
-    font-size: 15px;
-    text-align: center; 
-    color: mediumvioletred;
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
-}
-
-h3 {
-    color: peachpuff;
-}
+    list-style-type: none;
     
+
 }
 
-<<<<<<< HEAD
-=======
+/* .a {
+    flex: 1;
+    flex-basis: 100%;  
+} */
+
+
+
+.column-2 {
+    padding: 75px; 
+    margin-top: 30px; 
+    background-color: rebeccapurple;
+    font-size: 15px;
+    text-align: center; 
+    border: solid 3px mediumspringgreen;
+
+}
+
+
 
 .flex-row {
 border: 5px ridge peachpuff;
@@ -120,7 +95,6 @@ h3 {
 
 
 
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
 @media only screen and (min-width: 800px) {
 
 
@@ -157,7 +131,7 @@ h3 {
 
 .container-2,
 .bg-img {
-    background-image: url("pexels-pixabay-277253.jpg");
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,33 +139,28 @@ h3 {
 } 
 
 
-.nav-link a:hover {
+.a:hover {
     font-size: 30px; 
 }
 
-.nav-link a {
+
+nav a {
 	font-size: 1em;
     text-transform: uppercase;
     display: inline-block;
     background: mediumspringgreen;
     margin: 10px; 
+    list-style-type: none;
 }
 
-.flex-container {
+.column-2 {
     padding: 75px; 
     margin-top: 30px; 
     background-color: rebeccapurple;
     font-size: 15px;
     text-align: center; 
     color: peachpuff;
-<<<<<<< HEAD
-}
-.column {
-     border: 2px solid peachpuff;
-}
-
-.info {
-    text-align: center;
+    border: solid 3px mediumspringgreen;
 }
 
 .flex-row {
@@ -214,30 +183,6 @@ h3 {
     }
 
 
-=======
-}
-
-.flex-row {
-border: 5px ridge peachpuff;
-color: mediumspringgreen;
-}
-
-h3 {
-    color: mediumspringgreen;
-}
-
-@media only screen and (min-width: 1200px) {
-
-.body {
-    font-size: 1rem;
-    text-align: center;
-	font-family: 'Varela Round', sans-serif;
-    background: rebeccapurple; 
-    border: 10mm groove mediumspringgreen;
-    }
-
-
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
 .container-2 {
     list-style-type: none; /*get rid of bullets*/
     
@@ -247,7 +192,7 @@ h3 {
     
 .container-2, 
 .bg-img {
-    background-image: url("pexels-pixabay-277253.jpg");
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,37 +211,29 @@ h3 {
 
 }
 
-<<<<<<< HEAD
-.column {
-     border: 5px solid mediumseagreen;
-     text-align: center;
-}
-
-
-.info {
-    text-align: center;
-}
-=======
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
-.nav-link a:hover {
+.a:hover {
     font-size: 30px; 
 }
 
-.nav-link a {
+ 
+nav a {
 
     text-transform: uppercase;
     display: inline-block;
     background: mediumspringgreen;
+    font-size: 25px;
+    list-style-type: none;
 
 }
 
-.flex-container {
+.column-2 {
     padding: 75px; 
     margin-top: 30px; 
     background-color: rebeccapurple;
-    font-size: 15px;
+    font-size: 12px;
     text-align: center; 
     color: peachpuff;
+    border: solid 3px mediumspringgreen;
 }
 .flex-row {
 border: 5px ridge mediumspringgreen;
