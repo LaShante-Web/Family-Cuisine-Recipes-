@@ -14,10 +14,31 @@ const food = [
     {
         name: 'Gullah/Geeche',
         origin: 'South Carolina',
-        info: 'Gullah-Geechee cuisine is one of the original foods of the world.” Okra, grains, and seafood are among the key ingredients of Gullah- Geechee cuisine.',
+        info: 'Gullah-Geechee cuisine is one of the original foods of the world.” Okra, grains, and seafood are among the key ingredients.',
         photo: 'gullah.jpg'
     }
 ]; 
+
+
+const main = document.querySelector('main')
+let html = '';
+
+for (let i = 0; i < food.length; i++) {
+    let cuisine = food[i];
+    html += `
+    <div class="col" id="history">
+    <h2>${cuisine.name}</h2>
+    <h3>${cuisine.origin}</h3>
+    <p> ${cuisine.info}</p>
+    <img src="img/${cuisine.photo}" alt="${cuisine.type}" width="150px">
+    </div>
+
+`;
+
+}
+
+
+main.insertAdjacentHTML('beforeend', html);
 
 
 
