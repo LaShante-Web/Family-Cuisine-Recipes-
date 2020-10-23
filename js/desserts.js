@@ -1,6 +1,73 @@
 const desserts = [
+
     {
-        
+        type: 'Main Dish',
+        name: 'Fried Catfish',
+        origin: 'Southern States',
+        ingredients: 'Catfish, lemon juice, lemon pepper seasoning, garlic powder, garlic salt, season salt, onion powder',
+        batter: 'Cornmeal. Season fish and cornmeal to your liking.',
+        instructions: 'Add oil to iron cast skillet and heat until hot. Add battered fish to oil, and fry for 7-9 minutes',
+        photo: 'fish.jpg'
+
+    },
+
+
+    {
+        type: 'Main Dish',
+        name: ' Grilled Chicken',
+        origin: 'Creole',
+        ingredients: 'Chicken wings, 1/2 cup of liquid smoke, 1/2 cup of lemon juice, 1 tbsp of season salt, 1 tbsp garlic salt, 1 tbsp  garlic powder, 1 tbsp onion poweder 1 tsp ginger, 1/2 tsp cinnamon, and 2 tbsp sugar',
+        batter: 'Marinate chicken for at least 2 hours ',
+        instructions: 'Grill chicken on a charcoal grill',
+        photo: 'chicken.jpg'
+    },
+    
+
+    {
+        type: 'Main Dish',
+        name: 'Shrimp and Okra',
+        origin: 'Gullah/Geeche',
+        ingredients: 'Vegetable oil, 1½ lbs chopped okra, 1 lb peeled shrimp, 3 tsp.minced garlic, 1 tsp minced chile pepper, 1 tsp minced ginger, ½ cup diced onion, salt and black pepper. Minced parsley, Minced thyme, and 1 cup diced tomato',
+        batter: 'Season the shrimp. Add oil to iron cast skillet. Brown the okra.Add herbs and tomato to the skillet. then the shrimp, and cook for 3 minutes. ',
+        instructions: '',
+        photo: 'shrimp.jpg'
+    },
+
+    {
+        type: 'Side Dish',
+        name: 'Cornbread',
+        origin: 'Southern States',
+        ingredients: ' 2 cups cups all purpose flour, 1 tbsp baking powder, 1 cup yellow corn meal, 2 cups of white sugar, 2 stick of salted butter softened, 3 medium sized eggs, 2 cups of milk, 1/4 cup of  oil',
+        batter: 'Combine the flour, baking powder, corn meal, and sugar in a large mixing bowl, Add the eggs, then pour the milk. Add the oil and the butter. Mix the ingredients',
+        instructions: 'Lightly oil a 9x13, and pour the cornbread batter. Bake on 350 for 35 - 40 minutes.',
+        photo: 'cornbread.jpg'
+
+    },
+
+
+    {
+        type: ' Side Dish',
+        name: 'Creole Green beans',
+        origin: 'Louisiana',
+        ingredients: '6 slices bacon, crisply fried, 3/4 cup onion, 1/2 cup chopped bell pepper, 1 tbsp of maggi chicken stock, 1/4 tsp pepper, 1 can 8 oz stewed tomatoes, 1 large bag of green beans.',
+        batter: 'In the same skillet that you browned the bacon keep 3 tablespoons of drippings and add the onion and green pepper. Sauté until tender.',
+        instructions: 'Boil water, then add maggi chicken stock. Add the green beans and cook until tender. Then add the bacon, onion, and bellpepper.',
+        photo: 'gbeans.jpg'
+    },
+
+
+    {
+        type: 'Side Dish',
+        name: 'Greens ',
+        origin: 'South Carolina',
+        ingredients: ' 2 bunches of greens of your choice, one pound of smoked turkey, and 1 large onion. Make sure to clean the greens, if you are buy.ing it fresh.',
+        batter: 'Place one pound of smoked turkey, and six quarts of water in a instant pot for 40 mins. This would be a good time to clean your greens.',
+        instructions: ' shred the smoke turkey. Add clean and cut greens to the instant pot with smoke turkey, and 2 tbsp maggi chicken stock. Then cut the onion, and add to the instant pot. Cook for 90 minutes',
+        photo: 'kgreens.jpg'
+    },
+
+    {
+        type: 'Dessert',
         name: ' Lazy Boy Peach Cobbler',
         origin: 'Southern States',
         ingredients: '2 29oz can peaches, 1 stick butter, 2 cups sugar, 1-2 tsp lemon, 1/4 tsp cinnamon, and cornstarch mix with tsp of cup of milk',
@@ -12,6 +79,7 @@ const desserts = [
 
 
     {
+        type: 'Dessert',
         name: 'Chocolate Mousse',
         origin: 'Louisiana',
         ingredients: '1 cup of chocolate chips, 1 egg, 1 tsp vanilla extract, 1 cup of heavy cream',
@@ -22,6 +90,7 @@ const desserts = [
 
 
     {
+        type: 'Dessert',
         name: 'Sweet Potato Pie',
         origin: 'South Carolina',
         ingredients:'1 & 1/2 cups of soft sweet potatoes, 3/4 cup sugar, 2 lg eggs, 4 tbs butter, 1/2 cup evaporated milk, 1 tsp vanilla extract, 1 tsp cinnamon, 1/4 tsp nutmeg, 8 tbsp salted butter, and 9 inch pie shell.',
@@ -33,3 +102,26 @@ const desserts = [
 
 
 
+html = '';
+
+for (let i = 0; i < desserts.length; i++) {
+    let food = desserts[i];
+    html += `
+
+    <div class="col-2" id="desserts">
+    <h1>${food.type}<h1>
+    <h2>${food.name}</h2>
+    <h3>${food.origin}</h3>
+    <p> ${food.ingredients}</p>
+    <p>${food.batter}</p>
+    <p>${food.instructions}</p>
+    <img src="img/${food.photo}" alt="{food.type}" width="150px">
+    
+    </div>
+     
+`;
+
+}
+
+
+main.insertAdjacentHTML('beforeend', html);

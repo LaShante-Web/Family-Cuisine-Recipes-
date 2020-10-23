@@ -20,28 +20,34 @@ nav a {
     flex-wrap: wrap;
     display: block;
     flex-basis: 100%;
-    flex: 3; 
-    
-    
+    flex: 1; 
+       
     
 } 
 
-.column
-  {
-	display: flex;
-    flex-direction: row;
+ 
+
+  .flex-container {
+    display: flex;
+    flex-direction: row; 
     text-align: center;
     justify-content: space-evenly;
-    
-    
-} 
+    column-fill: auto;
 
+  }
+
+.column-1,
+ .column-2 {
+	 
+    width: 100%;
+  
+
+} 
 
 
 .col,
-.col-1,
-.col-3 { 
- flex-basis: 0%; 
+.col-2 { 
+ flex-basis: 100%; 
   
 
  
@@ -49,7 +55,7 @@ nav a {
 }
 .flex-row {
 	display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -81,39 +87,44 @@ nav a {
 }
 
 
-nav a {
-	/* padding: 10px 15px; */
-	text-transform: uppercase;
+ nav a {
+	 padding: 10px 15px;
+	text-transform: uppercase; 
     display: inline-block;
-}
+} 
 
 
 
- .column {
-	display: flex;
-    flex-direction: row;
-    column-count: 2;
-     text-align: center;
-     justify-content: space-evenly;
-      column-fill: auto;
-    
+
+  .flex-container {
+    display: flex;
+    flex-direction: row; 
+    text-align: center;
+    justify-content: space-evenly;
+    column-fill: auto;
+
+  }
+
+.column-1,
+ .column-2 {
+	 
+    width: 50%;
+
 } 
 
 .col,
-.col-1,
-.col-3 { 
+.col-2 { 
   
  flex-basis: 30%; 
 }
   
   
-}
 .flex-row {
 	display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     
     
 } 
@@ -135,12 +146,6 @@ nav a {
 }
 
 
-.flex-container {
-  /* display: inline-block;  */
-  display: flex;
-
-	   
-}
 
 
 .center {
@@ -149,35 +154,40 @@ nav a {
   width: 25%;
 }
 
-
-nav a {
+ 
+  nav a {
 	
 	text-transform: uppercase;
-    display: block;
+    display: inline-block;
     
 
-}
+}  
 
-  
-
-.column {
-	display: flex;
-    flex-direction: row;
+  .flex-container {
+    display: flex;
+    flex-direction: row; 
     text-align: center;
     justify-content: space-evenly;
     column-fill: auto;
+
+  }
+
+.column-1,
+ .column-2 {
+	 
+    width: 50%;
+
 } 
 
+
+
   .col,
-  .col-1,
-  .col-3 { 
+  .col-2 { 
   
  flex-basis: 30%; 
   
-
-  
-  
 }
+
 .flex-row {
 	display: flex;
     flex-direction: row;

@@ -8,49 +8,66 @@
     <link rel="stylesheet" href="css/flexbox.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animation.css">
-    <script type="text/javascript"></script>
+    
+    
 </head>
 
 <body>
     <div class="container-fluid">
-        <div id="bg-img">
+       
             <div class="container-2">
-                <h1>
-                    <p>Family Cusine and Recipes</p>
-                </h1>
+           
+                <header>
+                    <h1>Family Cusine and Recipes</h1>
+                </header>
             </div>
             <div id="container-3">
                 <nav>
-                    <a href="#history" style="color: peachpuff"> Food History</a>
-                    <a href="#dish" style="color: peachpuff">Main</a>
-                    <a href="page2.html" style="color: peachpuff">Sides</a>
-                    <a href="#desserts" style="color: peachpuff">Desserts</a>
-                    <a href="page4.html" style="color: peachpuff">Recipes</a>
-                    <a href="#col-b" style="color: peachpuff">Survey</a>
+                  <button><a href="#history" style="color: peachpuff">History</a></button>
+                    <button><a href="#desserts" style="color: peachpuff">Recipes</a></button>
+                    <button type="input" onclick="myFunction()" id="button" ><a href="" style="color: peachpuff">Survey</a></button>
+                    
+                
                 </nav>
+            
+            
+            
             </div>
 
-            <div class="flex-container">
+        
            
-                <div class="column-1"  id="col-a">
-                <h1>Family History</h1>
-                <div class="animation">
-                <img src="img/pexels-august-de-richelieu-4262009.jpg" width="100px" alt="family" class="center">
+
+            <div class="flex-container">
+               
+                <div class="column-1" >
+                    <h1>Family</h1>
+                    <div class="animation">
+                        <img src="img/pexels-august-de-richelieu-4262009.jpg" width="100px" alt="family" class="center">
+                    </div>
+                    
+                    <p class="info"> Growing up my Mother would cook for family gatherings. She would prepare
+                        meals for Christmas, Thanksgiving, New Year's, birthday parties, church functions, and many other events. My Mother
+                        even catered my wedding reception, and the food was delicious.
+                        Our family migrated from the deep south. They travelled from Arkansas and Lousiana to San Francisco. My Mother
+                        learned how to cook from her Mother and Grandmother on how to cook and to use spices in recipes.
+                        She would cook different types of American Cusines. My Mother can cook Louisana Creole Cuisine,
+                        Soul Food, Gullah-Geechee Cusine, and other ethnic cuisines. I will share some of my family favorite recipes </p>
+                    <p></p>
                 </div>
-                   <p class="info"> Growing up my Mother would cook for family gatherings. She would prepare
-                    meals for Christmas, Thanksgiving, New Year's, birthday parties, church functions, and  many other events. My Mother even catered my wedding reception, and the food was delicious.
-                    Our family migrated from the deep south. They travelled from Arkansas and Lousiana to San Francisco. My Mother learned how to cook from her Mother and Grandmother on how to cook and to use spices in recipes. 
-                    She would cook different types of American Cusines. My Mother can cook Louisana Creole Cuisine, 
-                    Soul Food, Gullah-Geechee Cusine, and other ethnic cuisines. I will share some of my family favorite recipes  </p>
-                <div class="column-2" id="col-b">
-                    <h1>Survey</h1>
+           
+                <div class="column-2" id="response" >
+
                 </div>
                 
+                   
+                    
             </div>
 
             
         
         </div>
+
+        
         
         <main class="flex-row">
         
@@ -59,23 +76,11 @@
         </main>
         </div>
         
-        <article id="dmenu">
-
-        </article>
-       
-
-      
-
-       
     </div>
 
-
+<script src="js/survey.js"></script>
 <script src="js/history.js"></script>
-<script src="js/history-2.js"></script>
 <script src="js/desserts.js"></script>
-<script src="js/desserts-2.js"></script>
-<!-- <script src="js/main.js"></script>
-<script src="js/main-2.js"></script> -->
 
 </body>
 
