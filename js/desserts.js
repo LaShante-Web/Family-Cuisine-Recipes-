@@ -18,7 +18,7 @@ const desserts = [
         origin: 'Creole',
         ingredients: 'Chicken wings, 1/2 cup of liquid smoke, 1/2 cup of lemon juice, 1 tbsp of season salt, 1 tbsp garlic salt, 1 tbsp  garlic powder, 1 tbsp onion poweder 1 tsp ginger, 1/2 tsp cinnamon, and 2 tbsp sugar',
         batter: 'Marinate chicken for at least 2 hours ',
-        instructions: 'Grill chicken on a charcoal grill',
+        instructions: 'Grill chicken on a charcoal grill. Grill chicken for 10-15 minutes',
         photo: 'chicken.jpg'
     },
     

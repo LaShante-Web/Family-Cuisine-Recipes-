@@ -1,27 +1,50 @@
 
+let soulfood = 0;
+let creole = 0;
+
+let gullah = 0;
+let other = 0; 
 
 
- function myFunction() {
-    
-     alert('Which Cuisine do you prefer?')
-     var r = prompt("Please choose between Soulfood, Creole, or Gullah/Geeche cuisine?");
 
-     if ( r == "Soulfood" ) {
+function refreshResults()  {
+     
+    var results = document.getElementById('results');
 
-         document.getElementById("response").innerHTML = "You picked ${r}. it is good for the soul. Please try the recipes!"; 
- } 
- if ( r == "Creole") { 
-     document.getElementById("response").innerHTML = "You picked "  +  r  + ". You must like spicy food. Please try the recipes"; 
-  
- } if ( r == "Gullah/Geeche") {
+    results.innerHTML += '<br/>soulfood: ' + soulfood;
+    results.innerHTML += '<br/>creole: ' + creole;
+    results.innerHTML += '<br/>gullah: ' + gullah;
+    results.innerHTML += '<br/>other: ' + other;
+    // results.innerHTML = 'total: ' + (soulfood + creole + gullahGeeche + other);
 
-     document.getElementById("response").innerHTML = "You picked"  +  r  +  ". Please try the recipes!"; 
- } else {
-     ( r == "")
-    document.getElementById("response").innerHTML = "You picked"  +  r  + ". Thank you for participating!"; 
- }
+}
+
+document.getElementById('soulfood-button').addEventListener('click', function () {
+    soulfood++;
+    refreshResults();
+});
+
+document.getElementById('creole-button').addEventListener('click', function () {
+    creole++;
+    refreshResults();
+});
+
+document.getElementById('gullah-button').addEventListener('click', function () {
+    gullah++;
+    refreshResults();
+});
+
+document.getElementById('other-button').addEventListener('click', function () {
+    other++;
+    refreshResults();
+});
 
 
- }
 
 
+
+
+
+ 
+
+ 

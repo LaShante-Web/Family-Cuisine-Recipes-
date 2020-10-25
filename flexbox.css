@@ -5,63 +5,56 @@ Flex Layout
 ================================*/
 
 
+
 @media only screen and (min-width: 320px) {
 
 .body {
     overflow: scroll;
 }
 
-.wrapper {
-    height: 25vh;
-    display: flex;
-    margin-block: 10px;
-
-}
-
-
- .nav-link a {
-	/* padding: 10px 15px; */
+ nav a {
+	
     text-transform: uppercase;
-    flex-direction: column;
-    align-items: baseline;
-    
-    
-} 
-
-<<<<<<< HEAD
-.flex-container,
-.column  {
-=======
-.flex-container
-  {
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
-	display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-evenly;
-    
-    
-} 
-
-<<<<<<< HEAD
-
-.info {
-    flex-wrap: wrap;
-=======
-
-
-.col { 
-  
- flex-basis: 30%; 
-  
-
-  
-  
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
-}
-.flex-row {
-	display: flex;
     flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    display: block;
+
+   
+}  
+
+ 
+
+  .flex-container {
+    display: flex;
+    flex-direction: row; 
+    text-align: center;
+    justify-content: space-evenly;
+    column-fill: auto;
+
+  }
+
+.column-1 {
+	 
+    width: 100%;
+  
+
+} 
+
+
+
+
+.col,
+.col-2 { 
+ flex-basis: 100%; 
+  
+
+ 
+  
+}
+.flex-row {
+	display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -69,12 +62,6 @@ Flex Layout
     
 } 
 
-<<<<<<< HEAD
-.flex-row {
-    justify-content: center;
-}
-=======
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
 
 }
 @media only screen and (min-width: 800px) {
@@ -90,73 +77,58 @@ Flex Layout
     
 }
 
-.wrapper {
-    height: 25vh;
-    display: flex;
 
-}
 .center {
-  /* display: block; */
+  
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  
 }
 
-.nav-link a {
-	/* padding: 10px 15px; */
-	text-transform: uppercase;
+
+ nav a {
+	 padding: 10px 15px;
+	text-transform: uppercase; 
     display: inline-block;
-}
-
-<<<<<<< HEAD
-
-
- .flex-container,
-.column {
-=======
-
-
- .flex-container {
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
-	display: flex;
-    flex-direction: column;
-    column-count: 2;
-     text-align: center;
-     justify-content: space-evenly;
-      column-fill: auto;
-    
 } 
-<<<<<<< HEAD
 
 
-.column {
-    column-count: 2 auto;
-}
-.info {
-    flex-wrap: wrap;
-}
 
-.flex-row {
-    justify-content: center;
-}
-=======
 
+  .flex-container {
+    display: flex;
+    flex-direction: row; 
+    text-align: center;
+    justify-content: space-evenly;
+    column-fill: auto;
+
+  }
+
+.column-1,
+ .column-2 {
+	 
+    width: 50%;
+
+} 
+
+.col,
+.col-2 { 
+  
+ flex-basis: 30%; 
 }
+  
+  
 .flex-row {
 	display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
     
 } 
 
 
-.flex-row {
-    justify-content: center;
-}
-
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
 
 
 
@@ -173,17 +145,6 @@ Flex Layout
 }
 
 
-.wrapper {
-    height: 25vh;
-    display: flex;
-
-}
-.flex-container {
-  /* display: inline-block;  */
-  display: flex;
-
-	   
-}
 
 
 .center {
@@ -192,53 +153,44 @@ Flex Layout
   width: 25%;
 }
 
-
-.nav-link a {
+ 
+  nav a {
 	
 	text-transform: uppercase;
-    display: block;
+    display: inline-block;
     
 
-}
+}  
 
-  
-
-<<<<<<< HEAD
-.flex-container,
-.column  {
-=======
-.flex-container
-  {
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
-	display: flex;
-    flex-direction: column;
+  .flex-container {
+    display: flex;
+    flex-direction: row; 
     text-align: center;
     justify-content: space-evenly;
     column-fill: auto;
+
+  }
+
+.column-1,
+ .column-2 {
+	 
+    width: 50%;
+
 } 
 
-<<<<<<< HEAD
-.column {
-column-count: 2 auto;
-}
 
 
-.info {
-    flex-wrap: wrap;
+  .col,
+  .col-2 { 
+  
+ flex-basis: 30%; 
+  
 }
 
-
-}
-=======
-}
 .flex-row {
 	display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
-    
-    
-} 
-
-
->>>>>>> 9f46582dcd768eefbc3c6cc63c33ea4941bd6060
+   
+}
