@@ -19,25 +19,40 @@
 
 } */
 
-.col img {
+.col {
   animation-name: flash_border; 
   animation-duration: 2s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes flash_border {
+ 
+  50% {
+    border-color: black;
+  }
+}
+.col img {
+  /* animation-name: flash_border; 
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; */
+   animation: spin 20s linear ;
 
 }
 
 
-@keyframes flash_border {
+@keyframes spin {
   0% {
     border-color: mediumspringgreen;
   }
   50% {
     border-color: rebeccapurple;
   }
-  100% {
-    border-color: peachpuff;
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(359deg); }
+}
+
 }
 
 
