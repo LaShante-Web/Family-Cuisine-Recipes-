@@ -5,8 +5,8 @@ const desserts = [
         name: 'Fried Catfish',
         origin: 'Southern States',
         ingredients: 'Catfish, lemon juice, lemon pepper seasoning, garlic powder, garlic salt, season salt, onion powder',
-        batter: 'Cornmeal. Season fish and cornmeal to your liking.',
-        instructions: 'Add oil to iron cast skillet and heat until hot. Add battered fish to oil, and fry for 7-9 minutes',
+        batter: 'Cornmeal. Season the cornmeal to your liking. Season fish to your likeing.',
+        instructions: 'Add oil to iron cast skillet. Heat the skillet until hot. Batter the dish. Add battered fish to the oil, and fry for 7-9 minutes',
         photo: 'fish.jpg'
 
     },
@@ -18,7 +18,7 @@ const desserts = [
         origin: 'Creole',
         ingredients: 'Chicken wings, 1/2 cup of liquid smoke, 1/2 cup of lemon juice, 1 tbsp of season salt, 1 tbsp garlic salt, 1 tbsp  garlic powder, 1 tbsp onion poweder 1 tsp ginger, 1/2 tsp cinnamon, and 2 tbsp sugar',
         batter: 'Marinate chicken for at least 2 hours ',
-        instructions: 'Grill chicken on a charcoal grill. Grill chicken for 10-15 minutes',
+        instructions: 'Grill chicken on a charcoal grill. Grill for 20 minutes.',
         photo: 'chicken.jpg'
     },
     
@@ -37,9 +37,9 @@ const desserts = [
         type: 'Side Dish',
         name: 'Cornbread',
         origin: 'Southern States',
-        ingredients: ' 2 cups cups all purpose flour, 1 tbsp baking powder, 1 cup yellow corn meal, 2 cups of white sugar, 2 stick of salted butter softened, 3 medium sized eggs, 2 cups of milk, 1/4 cup of  oil',
-        batter: 'Combine the flour, baking powder, corn meal, and sugar in a large mixing bowl, Add the eggs, then pour the milk. Add the oil and the butter. Mix the ingredients',
-        instructions: 'Lightly oil a 9x13, and pour the cornbread batter. Bake on 350 for 35 - 40 minutes.',
+        ingredients: ' 2 cups cups all purpose flour, 1 tbsp baking powder, 1 cup yellow corn meal, 2 cups of white sugar, 2 stick of salted butter softened, 3 medium sized eggs, 2 cups of milk, and 1/4 cup of  oil.',
+        batter: 'Combine the flour, baking powder, corn meal, and sugar in a large mixing bowl, Add the eggs, then pour the milk. Add the oil and the butter. Mix the ingredients.',
+        instructions: 'Lightly oil a 9x13 pan, and pour the cornbread batter into the pan. Bake on 350 for 35 - 40 minutes. Take the cornbrean out the oven, and let it cool down.',
         photo: 'cornbread.jpg'
 
     },
@@ -50,8 +50,8 @@ const desserts = [
         name: 'Creole Green beans',
         origin: 'Louisiana',
         ingredients: '6 slices bacon, crisply fried, 3/4 cup onion, 1/2 cup chopped bell pepper, 1 tbsp of maggi chicken stock, 1/4 tsp pepper, 1 can 8 oz stewed tomatoes, 1 large bag of green beans.',
-        batter: 'In the same skillet that you browned the bacon keep 3 tablespoons of drippings and add the onion and green pepper. Sauté until tender.',
-        instructions: 'Boil water, then add maggi chicken stock. Add the green beans and cook until tender. Then add the bacon, onion, and bellpepper.',
+        batter: 'In the same skillet that you browned the bacon keep 3 tablespoons of drippings and add the onion and green pepper. Sauté until tender. Then add it to the instant pot or pot on the stove. ',
+        instructions: 'Boil water, then add maggi chicken stock. Add the green beans and cook until tender. Then add the bacon, onion, and bellpepper. Cook for 15 minutes in the instant pot, or 30 minutes on stove top.',
         photo: 'gbeans.jpg'
     },
 
@@ -61,7 +61,7 @@ const desserts = [
         name: 'Greens ',
         origin: 'South Carolina',
         ingredients: ' 2 bunches of greens of your choice, one pound of smoked turkey, and 1 large onion. Make sure to clean the greens, if you are buy.ing it fresh.',
-        batter: 'Place one pound of smoked turkey, and six quarts of water in a instant pot for 40 mins. This would be a good time to clean your greens.',
+        batter: 'Place one pound of smoked turkey, and six quarts of water in a instant pot for 40 minutes. After the 40 minutes, let the smoke turkey cool down. This would be a good time to clean your greens. After cleaning the grees, cut the greens, and rinse.',
         instructions: ' shred the smoke turkey. Add clean and cut greens to the instant pot with smoke turkey, and 2 tbsp maggi chicken stock. Then cut the onion, and add to the instant pot. Cook for 90 minutes',
         photo: 'kgreens.jpg'
     },
@@ -70,9 +70,9 @@ const desserts = [
         type: 'Dessert',
         name: ' Lazy Boy Peach Cobbler',
         origin: 'Southern States',
-        ingredients: '2 29oz can peaches, 1 stick butter, 2 cups sugar, 1-2 tsp lemon, 1/4 tsp cinnamon, and cornstarch mix with tsp of cup of milk',
-        batter: '1 cup of flour, 2 cups sugar, 2/3 cup milk, 1 egg, 2 tsp baking powder, vanilla extract, 1/4 tsp of salt', 
-        instructions: 'Preheat oven to 350 degrees and grease pan, mixed the peaches and other ingriendents. Mix the batter, Pour peaches into pan, 5. Pour batter on top of peaches, 6. Bake for 30 to 45 minutes',
+        ingredients: '2 29oz can peaches, 1 stick butter, 2 cups sugar, 1-2 tsp lemon, 1/4 tsp cinnamon, and cornstarch mix with tsp of cup of milk.',
+        batter: '1 cup of flour, 2 cups sugar, 2/3 cup milk, 1 egg, 2 tsp baking powder, vanilla extract, 1/4 tsp of salt.', 
+        instructions: 'Preheat oven to 350 degrees and grease pan with butter. Mix the peaches and other ingriendents. Mix the batter, Pour peaches into pan. Pour batter on top of peaches, 6. Bake for 30 to 45 minutes.',
         photo: 'peach.jpg'
 
     },
@@ -94,7 +94,7 @@ const desserts = [
         name: 'Sweet Potato Pie',
         origin: 'South Carolina',
         ingredients:'1 & 1/2 cups of soft sweet potatoes, 3/4 cup sugar, 2 lg eggs, 4 tbs butter, 1/2 cup evaporated milk, 1 tsp vanilla extract, 1 tsp cinnamon, 1/4 tsp nutmeg, 8 tbsp salted butter, and 9 inch pie shell.',
-        batter: 'Mix the sweet potatoes in mixing bowl until creamy. Add in the cinnamon, nutmeg, ginger, sugar, eggs, evaporated milk, vanilla extract, and softened butter. Whisk until the mixture is nice creamy. Add sweet potatos into the pie shell. Bake the pie for 45 - 50 mins.',
+        batter: 'Mix the sweet potatoes in mixing bowl until creamy. Add in the cinnamon, nutmeg, ginger, sugar, eggs, evaporated milk, vanilla extract, and softened butter. Whisk until the mixture is nice creamy. Add sweet potatos into the pie shell. Bake the pie for 45 - 50 mins. Then let it cool down.',
         instructions:'',
         photo: 'pie.jpg'
     }
