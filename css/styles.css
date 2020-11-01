@@ -165,6 +165,15 @@ body {
  @media only screen and (min-width: 800px) { 
  
 
+button {
+    background: mediumspringgreen;
+    border: peachpuff;
+    padding-left: 5px;
+    padding-right: 5px; 
+    border-radius: 2px;
+    margin: 1px;
+}
+
  .column-1 {
      font-size: 1.5em;
  }
