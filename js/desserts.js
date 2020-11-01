@@ -6,7 +6,7 @@ const desserts = [
         origin: 'Southern States',
         ingredients: 'Catfish, lemon juice, lemon pepper seasoning, garlic powder, garlic salt, season salt, onion powder',
         batter: 'Cornmeal. Season the cornmeal to your liking. Season fish to your likeing.',
-        instructions: 'Add oil to iron cast skillet. Heat the skillet until hot. Batter the dish. Add battered fish to the oil, and fry for 7-9 minutes',
+        instructions: 'Add oil to iron cast skillet. Heat the skillet until hot. Batter the fish, and fry for 7-9 minutes.',
         photo: 'fish.jpg'
 
     },
@@ -17,8 +17,8 @@ const desserts = [
         name: ' Grilled Chicken',
         origin: 'Creole',
         ingredients: 'Chicken wings, 1/2 cup of liquid smoke, 1/2 cup of lemon juice, 1 tbsp of season salt, 1 tbsp garlic salt, 1 tbsp  garlic powder, 1 tbsp onion poweder 1 tsp ginger, 1/2 tsp cinnamon, and 2 tbsp sugar',
-        batter: 'Marinate chicken for at least 2 hours ',
-        instructions: 'Grill chicken on a charcoal grill. Grill for 20 minutes.',
+        batter: 'Marinate chicken for at least 2 hours. ',
+        instructions: 'Grill chicken on a charcoal grill for 20 minutes.',
         photo: 'chicken.jpg'
     },
     
@@ -51,7 +51,7 @@ const desserts = [
         origin: 'Louisiana',
         ingredients: '6 slices bacon, crisply fried, 3/4 cup onion, 1/2 cup chopped bell pepper, 1 tbsp of maggi chicken stock, 1/4 tsp pepper, 1 can 8 oz stewed tomatoes, 1 large bag of green beans.',
         batter: 'In the same skillet that you browned the bacon keep 3 tablespoons of drippings and add the onion and green pepper. Sauté until tender. Then add it to the instant pot or pot on the stove. ',
-        instructions: 'Boil water, then add maggi chicken stock. Add the green beans and cook until tender. Then add the bacon, onion, and bellpepper. Cook for 15 minutes in the instant pot, or 30 minutes on stove top.',
+        instructions: 'Add maggi chicken stock. Add the green beans. Then add the bacon, onion, and bellpepper. Cook until tender or approximately 15 minutes. ',
         photo: 'gbeans.jpg'
     },
 
@@ -61,8 +61,8 @@ const desserts = [
         name: 'Greens ',
         origin: 'South Carolina',
         ingredients: ' 2 bunches of greens of your choice, one pound of smoked turkey, and 1 large onion. Make sure to clean the greens, if you are buy.ing it fresh.',
-        batter: 'Place one pound of smoked turkey, and six quarts of water in a instant pot for 40 minutes. After the 40 minutes, let the smoke turkey cool down. This would be a good time to clean your greens. After cleaning the grees, cut the greens, and rinse.',
-        instructions: ' shred the smoke turkey. Add clean and cut greens to the instant pot with smoke turkey, and 2 tbsp maggi chicken stock. Then cut the onion, and add to the instant pot. Cook for 90 minutes',
+        batter: 'Place one pound of smoked turkey, and six quarts of water in a instant pot for 40 minutes. After the 40 minutes, let the smoke turkey cool down. This would be a good time to clean your greens.',
+        instructions: 'Shred the smoke turkey. Add the greens to the instant pot with smoke turkey, and 2 tbsp maggi chicken stock. Add the cut onions to the instant pot. Cook for 90 minutes',
         photo: 'kgreens.jpg'
     },
 
@@ -83,7 +83,7 @@ const desserts = [
         name: 'Chocolate Mousse',
         origin: 'Louisiana',
         ingredients: '1 cup of chocolate chips, 1 egg, 1 tsp vanilla extract, 1 cup of heavy cream',
-        batter:'Combine the chocolate chips, egg and vanilla in a blender.',
+        batter:'Combine the chocolate chips, egg and vanilla in a blender. Blend until mixed.',
         instructions:'Heat the cream until hot and small bubbles appear around the edge but do not boil. With the blender running, pour in the hot cream and blend until the chocolate melts and the mixture is smooth. Pour into dessert dishes, cover with plastic wrap and chill.',
         photo: 'mousse.jpg'
     },
@@ -94,7 +94,7 @@ const desserts = [
         name: 'Sweet Potato Pie',
         origin: 'South Carolina',
         ingredients:'1 & 1/2 cups of soft sweet potatoes, 3/4 cup sugar, 2 lg eggs, 4 tbs butter, 1/2 cup evaporated milk, 1 tsp vanilla extract, 1 tsp cinnamon, 1/4 tsp nutmeg, 8 tbsp salted butter, and 9 inch pie shell.',
-        batter: 'Mix the sweet potatoes in mixing bowl until creamy. Add in the cinnamon, nutmeg, ginger, sugar, eggs, evaporated milk, vanilla extract, and softened butter. Whisk until the mixture is nice creamy. Add sweet potatos into the pie shell. Bake the pie for 45 - 50 mins. Then let it cool down.',
+        batter: 'Mix the sweet potatoes in mixing bowl until creamy. Add in the cinnamon, nutmeg, ginger, sugar, eggs, evaporated milk, vanilla extract, and softened butter. Whisk until the mixture is nice creamy. Add sweet potatos into the pie shell. Bake the pie for 45 - 50 mins. Then let it cool down, and serve with whipped cream',
         instructions:'',
         photo: 'pie.jpg'
     }
