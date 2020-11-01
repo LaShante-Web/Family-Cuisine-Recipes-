@@ -171,7 +171,7 @@ Media Queries
  
 .navigation {
   flex-direction: column;
-  max-width: 70%; 
+  max-width: 100%; 
   margin: auto; 
   
 }
