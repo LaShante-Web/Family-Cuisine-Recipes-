@@ -72,74 +72,6 @@ Media Queries
 
 ================================*/
 
-/* 
-@media only screen and (min-width: 320px) {
-
-
-
- .column-1 {
-	 
-   max-width: 100%;
-   
-
-} 
-
-
- .col,
-.col-2 { 
-  
- flex-basis: 50%; 
-}
-
-
- @media only screen and (min-width: 800px) {
- 
-.navigation {
-  flex-direction: column;
-  max-width: 70%; 
-  margin: auto; 
-  
-
-}
-
-
-
-}
- .column {
-	 
-    width: 60%; 
-
-} 
-
-  .col,
-.col-2 { 
-  
- 
- flex-direction: row;
- width: 60%; 
- margin: auto; 
-} 
-
-  
-
-
-
-
-@media (min-width: 1200px) {
-
-.navigation {
-  flex-direction: row;
-  max-width: 100%;
-}
-
-.column-1 {
-	 flex-basis: 30%;
-
-} 
-
-
-} */
-
 
 @media only screen and (min-width: 320px) {
 
@@ -156,11 +88,9 @@ Media Queries
 .col,
 .col-2 { 
   
-  width: 50%; 
+  width: 75%; 
   margin: auto; 
   
-
- 
   
 } 
 
@@ -190,7 +120,7 @@ Media Queries
 .col-2 { 
   
  flex-direction: column;
- flex-basis: 50%; 
+ flex-basis: 75%; 
 
 }
   
@@ -233,3 +163,7 @@ Media Queries
   
   
 }
+
+}
+
+

@@ -14,7 +14,7 @@ const food = [
     {
         name: 'Gullah/Geeche',
         origin: 'South Carolina',
-        info: 'Gullah-Geechee cuisine is one of the original foods of the world.” Okra, grains, and seafood are among the key ingredients.',
+        info: 'Gullah-Geechee cuisine originated from South Carolina, which blends West African influences.',
         photo: 'gullah.jpg'
     }
 ]; 
