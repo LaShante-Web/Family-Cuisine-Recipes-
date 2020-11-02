@@ -60,9 +60,9 @@ const desserts = [
         type: 'Side Dish',
         name: 'Greens ',
         origin: 'South Carolina',
-        ingredients: ' 2 bunches of greens of your choice, one pound of smoked turkey, and 1 large onion. Make sure to clean the greens, if you are buy.ing it fresh.',
+        ingredients: ' 2 bunches of greens of your choice, one pound of smoked turkey, and 1 large onion. Make sure to clean the greens, if you are buying it fresh.',
         batter: 'Place one pound of smoked turkey, and six quarts of water in a instant pot for 40 minutes. After the 40 minutes, let the smoke turkey cool down. This would be a good time to clean your greens.',
-        instructions: 'Shred the smoke turkey. Add the greens to the instant pot with smoke turkey, and 2 tbsp maggi chicken stock. Add the cut onions to the instant pot. Cook for 90 minutes',
+        instructions: 'Shred the smoke turkey. Add the greens to the instant pot with smoke turkey, and 2 tbsp maggi chicken stock. Add the cut onions to the instant pot. Cook for 90 minutes.',
         photo: 'kgreens.jpg'
     },
 
@@ -82,9 +82,9 @@ const desserts = [
         type: 'Dessert',
         name: 'Chocolate Mousse',
         origin: 'Louisiana',
-        ingredients: '1 cup of chocolate chips, 1 egg, 1 tsp vanilla extract, 1 cup of heavy cream',
-        batter:'Combine the chocolate chips, egg and vanilla in a blender. Blend until mixed.',
-        instructions:'Heat the cream until hot and small bubbles appear around the edge but do not boil. With the blender running, pour in the hot cream and blend until the chocolate melts and the mixture is smooth. Pour into dessert dishes, cover with plastic wrap and chill.',
+        ingredients: '1 cup of chocolate chips, 1 tsp vanilla extract, 1 cup of heavy cream.',
+        batter:'Combine the chocolate chips and vanilla in a blender. Blend until mixed.',
+        instructions:'Heat the cream until hot, and small bubbles appear around the edge but do not boil. With the blender running, pour in the hot cream and blend until the chocolate melts and the mixture is smooth. Pour into dessert dishes, cover with plastic wrap and chill.',
         photo: 'mousse.jpg'
     },
 
@@ -94,7 +94,7 @@ const desserts = [
         name: 'Sweet Potato Pie',
         origin: 'South Carolina',
         ingredients:'1 & 1/2 cups of soft sweet potatoes, 3/4 cup sugar, 2 lg eggs, 4 tbs butter, 1/2 cup evaporated milk, 1 tsp vanilla extract, 1 tsp cinnamon, 1/4 tsp nutmeg, 8 tbsp salted butter, and 9 inch pie shell.',
-        batter: 'Mix the sweet potatoes in mixing bowl until creamy. Add in the cinnamon, nutmeg, ginger, sugar, eggs, evaporated milk, vanilla extract, and softened butter. Whisk until the mixture is nice creamy. Add sweet potatos into the pie shell. Bake the pie for 45 - 50 mins. Then let it cool down, and serve with whipped cream',
+        batter: 'Mix the sweet potatoes in mixing bowl until creamy. Add in the cinnamon, nutmeg, ginger, sugar, eggs, evaporated milk, vanilla extract, and softened butter. Whisk until the mixture is nice creamy. Add sweet potatos into the pie shell. Bake the pie for 45 - 50 mins. Then let it cool down, and serve with whipped cream.',
         instructions:'',
         photo: 'pie.jpg'
     }
