@@ -16,7 +16,6 @@
 .header {
     width: 100%; 
      background: url(../img/spices-2.jpg) no-repeat 50% 50% / cover;
-     fill-opacity: inherit;
    
 }
 
@@ -182,7 +181,7 @@ body {
     background-color: #663399;
 }
 
- 
+}
 
  @media only screen and (min-width: 800px) { 
  
@@ -200,6 +199,7 @@ button {
      font-size: 1.5em;
  }
     
+}
 @media only screen and (min-width: 1200px) {
 
 

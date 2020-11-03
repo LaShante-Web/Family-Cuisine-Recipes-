@@ -1,4 +1,4 @@
-const desserts = [
+const recipes = [
 
     {
         type: 'Main Dish',
@@ -104,11 +104,11 @@ const desserts = [
 
 html = '';
 
-for (let i = 0; i < desserts.length; i++) {
-    let food = desserts[i];
+for (let i = 0; i < recipes.length; i++) {
+    let food = recipes[i];
     html += `
 
-    <div class="col-2" id="desserts">
+    <div class="col-2" id="recipes">
     <h1>${food.type}<h1>
     <h2>${food.name}</h2>
     <h3>${food.origin}</h3>
