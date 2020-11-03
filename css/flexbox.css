@@ -95,7 +95,7 @@ Media Queries
 } 
 
 
-
+}
 
  @media only screen and (min-width: 800px) {
  
@@ -136,7 +136,7 @@ Media Queries
 }   
 
 
-
+}
 
 
 @media (min-width: 1200px) {
@@ -160,10 +160,6 @@ Media Queries
   
  flex-basis: 25%; 
  margin: 10px; 
-  
-  
 }
 
 }
-
-
