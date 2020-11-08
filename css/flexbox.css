@@ -1,8 +1,7 @@
 /*==========================
-
 Flex Layout
-
 ================================*/
+
 
 
 .body {
@@ -48,7 +47,7 @@ nav a  {
 
  .column-1 {
 	 
-    max-width: 100%;
+    flex-direction: column; 
   
 
 } 
@@ -62,19 +61,25 @@ nav a  {
 
  
   
-} 
+}  
 
 
 
 /*==========================
-
 Media Queries 
-
 ================================*/
 
 
 @media only screen and (min-width: 320px) {
 
+ 
+.navigation {
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%; 
+  margin: auto; 
+  
+}
 
 
  .column-1 {
@@ -108,11 +113,11 @@ Media Queries
 
 
 
- .column-1,
- #results {
+ .column-1 {
 	 flex-direction: column; 
     flex-basis: 50%; 
-    display: flex; 
+    display: flex;
+    flex-wrap: wrap; 
 
 } 
 
