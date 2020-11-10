@@ -74,9 +74,8 @@ Media Queries
 
  
 .navigation {
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 100%; 
+  flex-direction: column;
+  width: 50%; 
   margin: auto; 
   
 }
@@ -89,6 +88,10 @@ Media Queries
 
 } 
 
+li button {
+  flex-direction: row;
+
+}
 
 .col,
 .col-2 { 
@@ -105,9 +108,8 @@ Media Queries
  @media only screen and (min-width: 800px) {
  
 .navigation {
-  flex-direction: column;
-  max-width: 100%; 
-  margin: auto; 
+  flex-direction: row;
+  width: 100%; 
   
 }
 
@@ -148,7 +150,7 @@ Media Queries
 
 .navigation {
   flex-direction: row;
-  max-width: 100%;
+  width: 100%;
 }
 
 .column-1 {
