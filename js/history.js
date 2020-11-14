@@ -2,7 +2,7 @@ const food = [
     {
         name: 'Soul Food',
         origin: 'Southern States',
-        info: 'Soul food is an ethnic cuisine traditionally prepared and eaten by African Americans, originating in the Southern United States',
+        info: 'Soul food is an ethnic cuisine traditionally prepared and eaten by African Americans, originating in the Southern United States.',
         photo: 'greenbeans.jpg'
     },
     {
