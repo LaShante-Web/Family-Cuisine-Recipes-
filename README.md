@@ -1,4 +1,4 @@
-# Family-Cusine-Recipes-
+# Family-Cuisine-Recipes-
 
 This repo is for my Code Louisville Project. 
 
