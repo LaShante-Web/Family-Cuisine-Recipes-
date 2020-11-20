@@ -31,3 +31,28 @@ https://lashante-web.github.io/Family-Cuisine-Recipes-/
 
 
 
+Requirements that my project meets:
+
+1. My project is built with "mobile first approach."
+2. Media queries scale up to handle larger devices. My media queries are: min-width 320px to max-width 600px, 
+min-width 800px, and min-width 1200px. It meets the requirement for a minmum of 2 media queries and better 
+user experience.
+3. My project makes visible changes. It resizes content areas based on media queries, change menus, images,
+columns, and rows.
+4. My project shows more than 5 commits to Github repository.  
+5. Special instructions is provide in the README.md. 
+6. My project has one paragraph or longer description. 
+
+
+CSS 
+
+1. Navigation switches from vertical to horiontal.
+2. Flexbox utilized for responsive website. 
+3. The nth-child used to highlight text in column-1 
+4. Animations added to the border and images of class "col."
+
+Javascript
+
+1. Array populating text and images in the browser.
+2. Click function used for poll vote, and displaying results in the browser.
+3. Alert message in browser when button is click. 
