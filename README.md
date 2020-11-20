@@ -31,7 +31,7 @@ https://lashante-web.github.io/Family-Cuisine-Recipes-/
 
 
 
-Requirements that my project meets:
+Requirements my project meets:
 
 1. My project is built with "mobile first approach."
 2. Media queries scale up to handle larger devices. My media queries are: min-width 320px to max-width 600px, 
